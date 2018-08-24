@@ -51,7 +51,7 @@ class UserProfile(object):
 
 	@python_2_unicode_compatible
 	def __str__(self):
-		return u"UserProfile[name={0}, avatar={1}, id={2}, country={3}, language={4}, api_version={5}"\
+		return u"UserProfile[name={0}, avatar={1}, id={2}, country={3}, language={4}, api_version={5}]"\
 			.format(
 			self._name,
 			self._avatar,
